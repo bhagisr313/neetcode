@@ -1,9 +1,16 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        res = ""
-        for i in digits:
-            res += str(i) 
-        int_res = int(res) + 1
-        result = [int(i) for i in list(str(int_res))]
-        return result
-        
+        carry = 1
+        res = []
+        sum = 0
+        for i in digits[::-1]:
+            sum = i + carry
+            if sum >= 10:
+                carry = 1
+                sum = 0
+            else:
+                carry = 0
+            res.append(sum)
+        if carry == 1:
+            res.append(carry)
+        return res[::-1]

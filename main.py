@@ -1,10 +1,10 @@
-from leetcode_easy_problems.p0482_license_key_formatting import Solution
+from leetcode_easy_problems.p0028_find_the_index_of_the_first_occurance_in_a_string import Solution
 
 def main():
 
-    s = "5F3Z-2e-9-w"
-    k = 4
-    result = Solution().licenseKeyFormatting(s,k)
+    haystack = "aaa"
+    needle = "aab"
+    result = Solution().strStr(haystack,needle)
     print(result)
 
 if __name__ == "__main__":
