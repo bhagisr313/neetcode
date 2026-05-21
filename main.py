@@ -1,10 +1,8 @@
-from leetcode_easy_problems.p0028_find_the_index_of_the_first_occurance_in_a_string import Solution
+from l1_arrays_and_hashing.p0448_find_all_numbers_disappeared_in_an_arraay import Solution
 
 def main():
-
-    haystack = "aaa"
-    needle = "aab"
-    result = Solution().strStr(haystack,needle)
+    nums = [4,3,2,7,8,2,3,1]
+    result = Solution().findDisappearedNumbers(nums)
     print(result)
 
 if __name__ == "__main__":
