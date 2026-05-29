@@ -1,8 +1,16 @@
-from leetcode_easy_problems.p2319_check_if_matrix_is_X_matrix import Solution
+from leetcode_medium_problems.p0036_valid_sudoku import Solution
 
 def main():
-    grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]
-    result = Solution().checkXMatrix(grid)
+    board = [["5","3",".",".","7",".",".",".","."]
+    ,["6",".",".","1","9","5",".",".","."]
+    ,[".","9","8",".",".",".",".","6","."]
+    ,["8",".",".",".","6",".",".",".","3"]
+    ,["4",".",".","8",".","3",".",".","1"]
+    ,["7",".",".",".","2",".",".",".","6"]
+    ,[".","6",".",".",".",".","2","8","."]
+    ,[".",".",".","4","1","9",".",".","5"]
+    ,[".",".",".",".","8",".",".","7","9"]]
+    result = Solution().isValidSudoku(board)
     print(result)
 
 if __name__ == "__main__":
