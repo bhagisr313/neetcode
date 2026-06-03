@@ -1,8 +1,9 @@
-from l2_two_pointers.p0680_valid_pallindrome_II import Solution
+from leetcode_medium_problems.p0165_compare_version_numbers import Solution
 
 def main():
-    s = "aba"
-    result = Solution().validPalindrome(s)
+    version1 = "1.2"
+    version2 = "1.10"
+    result = Solution().compareVersion(version1,version2)
     print(result)
 
 if __name__ == "__main__":
