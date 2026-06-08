@@ -1,8 +1,8 @@
-from l2_stacks.p3174_clear_digits import Solution
+from leetcode_easy_problems.p0136_single_number import Solution
 
 def main():
-    s = "123"
-    result = Solution().clearDigits(s)
+    nums = [2,2,1]
+    result = Solution().singleNumber(nums)
     print(result)
 
 if __name__ == "__main__":
