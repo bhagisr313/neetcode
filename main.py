@@ -1,8 +1,8 @@
-from l2_stacks.p3174_clear_digits import Solution
+from leetcode_easy_problems.p3950_exactly_one_consecutive_set_bits_pair import Solution
 
 def main():
-    s = "123"
-    result = Solution().clearDigits(s)
+    n = 5
+    result = Solution().consecutiveSetBits(n)
     print(result)
 
 if __name__ == "__main__":
