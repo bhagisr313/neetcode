@@ -1,8 +1,8 @@
-from leetcode_easy_problems.p3950_exactly_one_consecutive_set_bits_pair import Solution
+from leetcode_easy_problems.p0136_single_number import Solution
 
 def main():
-    n = 5
-    result = Solution().consecutiveSetBits(n)
+    nums = [2,2,1]
+    result = Solution().singleNumber(nums)
     print(result)
 
 if __name__ == "__main__":
