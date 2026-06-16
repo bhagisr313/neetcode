@@ -1,10 +1,10 @@
-from l3_linked_list.p0203_remove_linked_list_elements import Solution,ListNode
+from l3_binary_search.p0035_search_insert_position import Solution
 
 def main():
     
-    list2 = ListNode(7,ListNode(7,ListNode(7,ListNode(7,None))))
-    val = 7
-    result = Solution().removeElements(list2, val)
+    nums = [1,3,5,6]
+    target = 8
+    result = Solution().searchInsert(nums,target)
     print(result)
 
 if __name__ == "__main__":
