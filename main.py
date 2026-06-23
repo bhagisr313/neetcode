@@ -1,9 +1,9 @@
-from l3_binary_search.p0540_single_element_in_a_sorted_array import Solution
+from l3_sliding_window.p2379_minimum_recolors_to_get_K_consecutive_black_blocks import Solution
 
 def main():
-    
-    nums = [1,1,2]
-    result = Solution().singleNonDuplicate(nums)
+    blocks = "WBBWWBBWBW"
+    k = 7
+    result = Solution().minimumRecolors(blocks,k)
     print(result)
 
 if __name__ == "__main__":
