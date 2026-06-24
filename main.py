@@ -1,9 +1,9 @@
-from l3_sliding_window.p2379_minimum_recolors_to_get_K_consecutive_black_blocks import Solution
+from l3_sliding_window.p1652_defuse_the_bomb import Solution
 
 def main():
-    blocks = "WBBWWBBWBW"
-    k = 7
-    result = Solution().minimumRecolors(blocks,k)
+    code = [5,7,1,4]
+    k = 3
+    result = Solution().decrypt(code,k)
     print(result)
 
 if __name__ == "__main__":
