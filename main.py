@@ -1,9 +1,9 @@
-from l3_sliding_window.p1652_defuse_the_bomb import Solution
+from l1_arrays_and_hashing.p1684_count_the_number_of_consistent_sytings import Solution
 
 def main():
-    code = [5,7,1,4]
-    k = 3
-    result = Solution().decrypt(code,k)
+    allowed = "ab"
+    words = ["ad","bd","aaab","baa","badab"]
+    result = Solution().countConsistentStrings(allowed,words)
     print(result)
 
 if __name__ == "__main__":
