@@ -1,9 +1,8 @@
-from l1_arrays_and_hashing.p1684_count_the_number_of_consistent_sytings import Solution
+from l2_two_pointers.p0026_remove_duplicates_from_sorted_array import Solution
 
 def main():
-    allowed = "ab"
-    words = ["ad","bd","aaab","baa","badab"]
-    result = Solution().countConsistentStrings(allowed,words)
+    nums = [1,1,2]
+    result = Solution().removeDuplicates(nums)
     print(result)
 
 if __name__ == "__main__":
