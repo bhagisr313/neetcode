@@ -1,8 +1,8 @@
-from l1_arrays_and_hashing.p2264_largest_3_same_digit_number_in_string import Solution
+from l1_arrays_and_hashing.p1701_average_waiting_time import Solution
 
 def main():
-    num = "2300019"
-    result = Solution().largestGoodInteger(num)
+    customers = [[1,2],[2,5],[4,3]]
+    result = Solution().averageWaitingTime(customers)
     print(result)
 
 if __name__ == "__main__":
