@@ -1,8 +1,10 @@
-from l1_arrays_and_hashing.p1701_average_waiting_time import Solution
+from l1_arrays_and_hashing.p0347_top_k_frequent_elements import Solution
 
 def main():
-    customers = [[1,2],[2,5],[4,3]]
-    result = Solution().averageWaitingTime(customers)
+    nums = [1,1,1,2,2,3]
+    k = 2
+    s = "abcd"
+    result = Solution().topKFrequent(nums, k)
     print(result)
 
 if __name__ == "__main__":
