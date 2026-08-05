@@ -1,10 +1,8 @@
-from l1_arrays_and_hashing.p0347_top_k_frequent_elements import Solution
+from l1_arrays_and_hashing.p1769_minimum_number_of_operations_to_move_all_balls_to_each_box import Solution
 
 def main():
-    nums = [1,1,1,2,2,3]
-    k = 2
-    s = "abcd"
-    result = Solution().topKFrequent(nums, k)
+    boxes = "001011"
+    result = Solution().minOperations(boxes)
     print(result)
 
 if __name__ == "__main__":
