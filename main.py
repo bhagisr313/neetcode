@@ -1,8 +1,8 @@
-from l1_arrays_and_hashing.p1769_minimum_number_of_operations_to_move_all_balls_to_each_box import Solution
+from l1_arrays_and_hashing.p0128_longest_consecutive_sequence import Solution
 
 def main():
-    boxes = "001011"
-    result = Solution().minOperations(boxes)
+    nums = [100,4,200,1,3,2]
+    result = Solution().longestConsecutive(nums)
     print(result)
 
 if __name__ == "__main__":
