@@ -18,3 +18,12 @@ class Solution:
         else:
             return [0] * len(nums)
         return result
+
+# ============================================================
+# RELATED EASY PROBLEM
+# ============================================================
+# Contains Duplicate
+#
+# Review this Easy problem first if you need to revisit
+# the basic pattern behind this Medium problem.
+# ============================================================

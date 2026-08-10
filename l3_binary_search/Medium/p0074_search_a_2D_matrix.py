@@ -22,3 +22,12 @@ class Solution:
             else:
                 return True
         return False
+
+# ============================================================
+# RELATED EASY PROBLEM
+# ============================================================
+# Binary Search
+#
+# Review this Easy problem first if you need to revisit
+# the basic pattern behind this Medium problem.
+# ============================================================
