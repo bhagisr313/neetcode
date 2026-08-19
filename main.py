@@ -1,8 +1,8 @@
-from l1_arrays_and_hashing.p0128_longest_consecutive_sequence import Solution
+from l1_arrays_and_hashing.Medium.p2780_minimum_index_of_a_vaild_split import Solution
 
 def main():
-    nums = [100,4,200,1,3,2]
-    result = Solution().longestConsecutive(nums)
+    nums = [2,1,3,1,1,1,7,1,2,1]
+    result = Solution().minimumIndex(nums)
     print(result)
 
 if __name__ == "__main__":
