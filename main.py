@@ -1,8 +1,9 @@
-from l1_arrays_and_hashing.Easy.p0409_longest_pallindrome import Solution
+from l2_stacks.Medium.p0946_validate_stack_sequences import Solution
 
 def main():
-    s = "abccccdd"
-    result = Solution().longestPalindrome(s)
+    pushed = [1,2,3,4,5]
+    popped = [4,3,5,1,2]
+    result = Solution().validateStackSequences(pushed, popped)
     print(result)
 
 if __name__ == "__main__":
