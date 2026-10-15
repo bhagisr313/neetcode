@@ -1,9 +1,8 @@
-from l2_stacks.Medium.p0946_validate_stack_sequences import Solution
+from l2_stacks.Medium.p0735_asteroid_collision import Solution
 
 def main():
-    pushed = [1,2,3,4,5]
-    popped = [4,3,5,1,2]
-    result = Solution().validateStackSequences(pushed, popped)
+    asteroids = [3,5,-6,2,-1,4]
+    result = Solution().asteroidCollision(asteroids)
     print(result)
 
 if __name__ == "__main__":
